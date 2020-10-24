@@ -1,0 +1,83 @@
+@media screen and (max-width: 980px){
+	.mobile-menu{
+		display:block;
+		color: #fff;
+		font-size: 35px;
+		text-align: right;
+	}
+	.mobile-menu:hover{
+		cursor: pointer;
+	}
+	.menu-area{
+		display:none;
+		width: 100%;
+		float: none;
+	}
+	.menu-area ul {
+		text-align:  center;
+	}
+	.menu-area ul li{
+		display:block;
+		margin: 20px 0;
+	}
+	.menu-area ul li:last-child a{
+		margin: auto;
+	}
+	.menu-area ul li a{
+		margin: 10px 0;
+		width: 20%;
+		margin: auto;
+		display:block;
+	}
+	.header-middle p{
+		width: 100%;
+	}
+	.col-1-4{
+		width: 50%;
+	}
+	.mt-50{
+		margin-top: 50px;
+	}
+	.contact-area form {
+		width: 100%;
+	}
+	.photo {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 480px){
+	.header-middle p{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.service-title p,
+	.portfolio-title p{
+		width: 100%;
+	}
+	.col-1-4,
+	.col-1-2{
+		width: 100%;
+	}
+	.mt-fifty{
+		margin-top: 50px;
+	}
+	.photo{
+		float: none;
+		margin-right: 0;
+		width: 100px;
+		margin: 30px auto;
+	}
+	.client-review {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.mt-100{
+		margin-top: 0px;
+	}
+	.orange-btn a{
+		padding: 20px 50px;
+	}
+}
